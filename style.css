@@ -1,0 +1,432 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Boldonse&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Permanent+Marker&family=Satisfy&family=Teko:wght@300..700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:  border-box;
+}
+body{
+    background-color: black !important ;
+}
+.head{
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 40px;
+}
+.Logo h1{
+    display: inline;
+    color: white;
+}
+.fit{
+    color: #65616d;
+}
+.Logo i{
+    font-size: 30px;
+    color: white;
+    animation-name: gym;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    padding-bottom: 10px !important;
+}
+.links{
+    display: flex;
+    gap: 20px;
+}
+.links a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin: 10px 0px ;
+
+}
+.spa2:hover{
+
+    cursor: pointer;
+    border-bottom: 1px solid greenyellow  ;
+    color: greenyellow;
+}
+.spa3:hover{
+    border-bottom: 1px solid greenyellow  ;
+    cursor: pointer;
+    color: greenyellow;
+}
+.spa4:hover{
+    cursor: pointer;
+    border-bottom: 1px solid greenyellow  ;
+    color: greenyellow;
+}
+.spa5:hover{
+    border-bottom: 1px solid greenyellow  ;
+    cursor: pointer;
+    color: greenyellow;
+}
+input:checked~.links{
+    left: 0px;
+}
+input{
+    display: none !important;
+}
+label{
+    display: none;
+}
+.bar{
+    color: black !important;
+}
+.jbtn{
+    padding: 10px 30px;
+    color: white;
+    background-color: black;
+    border: solid greenyellow;
+    border-radius:10px ;
+
+}
+.jbtn:hover{
+    background-color: orangered;
+    border: none;
+    color: black;
+}
+/* home css */
+.home1{
+    height: 665px;
+    background-image: url(./workout-6783020_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.content{
+    width: 100%;
+    padding: 100px 80px;
+    color: white;
+    text-align: center;
+}
+.content h1{
+    font-size: 80px;
+    font-family: fantasy;
+    font-weight: 100;
+    margin-top: 70px;
+    text-shadow: -3px 5px 2px black;
+} 
+.content h1:hover{
+    transition: 2s ease;
+    transform: scale(1.1);
+}
+.btn{
+    background-color: orangered !important;
+    padding: 10px 30px !important;
+    border: none;
+    border-radius: 20px !important;
+    margin: 20px 0px;
+    color: black !important;
+}
+.btn:hover{
+    transition: 2s ease;
+    transform: scale(1.1);
+}
+.box{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.classes{
+    display: flex;
+}
+.cls{
+    height: 300px;
+    width: 33%;
+}
+.cls img{
+    width: 100%;
+}
+/* about css */
+.imgcont{
+        display: flex;
+        justify-content: center;
+        padding:20px ;
+        gap: 20px;
+}
+
+.aboutimg{
+    height: 300px;
+    width: 50%;
+    padding: 20px;
+}
+.con{
+    width: 50%;
+    color: white;
+    padding: 30px;
+}
+.para{
+    margin-bottom: 20px;
+}
+.aboutimg img{
+    width: 100%;
+    height: 300px;
+}
+.con h2{
+    margin-bottom: 20px;
+}
+.aboutimg img:hover{
+    transition: 2s ease;
+    transform: scaleY(1.1);
+}
+.set1{
+    text-align: center;
+    padding: 30px;
+}
+.healh{
+    display: flex;
+    gap: 40px;
+    margin: 30px;
+}
+.healh div:hover{
+    border: 2px solid orangered;
+    cursor: pointer;
+}
+.set1 h1{
+    color: orangered;
+}
+.set1 h2{
+    color: white;
+}
+.heal{
+    color: white;
+    padding: 5px;
+}
+.ico{
+    font-size: 30px;
+    color: orangered;
+    padding: 20px;
+}
+.ico:hover{
+    transition: 2s ease;
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+/* plan page */
+.box4{
+    background-image: url(./young-fitness-man-studio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+}
+.box4 .price{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    font-family: math;
+    padding: 50px 0px;
+}
+.dabas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.daba{
+    color: white;
+    border: 2px solid white;
+    width: 25%;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px 0px;
+    transition: all 1s linear;
+}
+.daba:hover{
+    color: white;
+    background-color: orangered;   
+    transform: scale(1.2);
+    position: relative;
+}
+.money{
+    padding: 30px;
+}
+.plan{
+    padding: 20px;
+}
+.daba button{
+    border: none;
+    background: orangered;
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-size: 15px !important;
+}
+/* footer */
+    .box5{
+        background-image: url(./footer.jpg);
+    }
+    .quick a{
+        text-decoration: none;
+    }
+   
+    
+@media only screen and (min-width:300px) and (max-width:600px) {
+    .head .links{
+         /* background-color: #b6a2e4; */
+         position: fixed;
+         top: 10px;
+         left: 120%;
+         width: 50%;
+         height: 100px;
+         flex-direction: column;
+         justify-content: flex-start;
+         align-items: center;
+         gap: 20px;
+         padding-top: 60px;
+ 
+    }
+    .bar{
+        color: white !important;
+    }
+    .jbtn{
+        display: none;
+    }
+    .Logo{
+        font-size: 10px;
+    }
+    .Logo i{
+        font-size: 20px;
+    }
+    
+    .overall{
+        height: max-content;
+    }
+    .bar{
+        color: white;
+    }
+    label{
+     display: block;
+    }
+    .home1{
+        width: 100%;
+    }   
+    .content{
+        width: 100%;
+    }
+    
+    .content h1{
+        font-size: 35px;
+    }
+    .imgcont{
+        flex-direction:column ;
+        gap: 35px;
+        height: max-content;
+    }
+    .aboutimg{
+        width: 100%;
+    }
+    .con{
+        padding: 20px;
+        width: 100%;
+    }
+    .con h2{
+        font-size: small;
+    }
+    .para{
+        font-size: small;
+    }
+    .healh{
+        flex-direction:column ;
+    }   
+    .box4 .price{
+        text-align: center;
+        color: white;
+        font-size: 50px;
+        font-family: math;
+        padding: 50px 0px;
+    }
+    .dabas{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .daba{
+        width: 100%;
+    }
+    .icons{
+        flex-wrap: wrap !important;
+    }
+}
+ @media only screen and (min-width:600px) and (max-width:800px) {
+    .head .links{
+         
+         position: fixed;
+         top: 73px;
+         left: 120%;
+         width: 50%;
+         height: 100px;
+         flex-direction: column;
+         justify-content: flex-start;
+         align-items: center;
+         gap: 20px;
+         padding-top: 60px;
+ 
+    }
+    .bar{
+        color: white !important;
+    }
+    .overall{
+        height: max-content;
+    }
+    .bar{
+        color: white;
+    }
+    label{
+     display: block;
+    }
+    .home1{
+        flex-direction: column;
+    }   
+    .content{
+        width: 100%;
+    }
+    .content h1{
+        font-size: 40px;
+    }
+    .con{
+        padding: 20px;
+        width: 100%;
+    }
+    .con h2{
+        font-size: 10px;
+    }
+    .imgcont{
+        flex-direction: column;
+    }
+    .aboutimg{
+        width: 100%;
+    }
+    .para{
+        font-size: small;
+    }   
+    .box4 .price{
+        font-size: 50px;
+        font-family: math;
+        padding: 40px 0px;
+    }
+    .dabas{
+        justify-content: space-around;
+    }
+    .daba{
+        font-size: 20px;
+    }
+    
+ }
+ @keyframes gym{
+    55%{ 
+        color: orangered;
+    }
+    100%{
+        color: #05ed2f;
+    }
+ }
