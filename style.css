@@ -98,7 +98,7 @@ label{
 /* home css */
 .home1{
     height: 665px;
-    background-image: url(./workout-6783020_1280.jpg);
+    background-image: url("img/workout-6783020_1280.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -216,7 +216,7 @@ label{
 }
 /* plan page */
 .box4{
-    background-image: url(./young-fitness-man-studio.jpg);
+    background-image: url("img/young-fitness-man-studio.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -264,7 +264,7 @@ label{
 }
 /* footer */
     .box5{
-        background-image: url(./footer.jpg);
+        background-image: url("img/footer.jpg");
     }
     .quick a{
         text-decoration: none;
